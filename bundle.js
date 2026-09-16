@@ -13223,7 +13223,7 @@ const NavBar_1 = __importDefault(__webpack_require__(2656));
 const Footer_1 = __importDefault(__webpack_require__(7406));
 __webpack_require__(3893);
 const App = () => {
-    return ((0, jsx_runtime_1.jsxs)(react_router_dom_1.BrowserRouter, { children: [(0, jsx_runtime_1.jsx)(NavBar_1.default, {}), (0, jsx_runtime_1.jsxs)(react_router_dom_1.Routes, { children: [(0, jsx_runtime_1.jsx)(react_router_dom_1.Route, { path: "/", element: (0, jsx_runtime_1.jsx)(Home_1.default, {}) }), (0, jsx_runtime_1.jsx)(react_router_dom_1.Route, { path: "/search", element: (0, jsx_runtime_1.jsx)(Search_1.default, {}) })] }), (0, jsx_runtime_1.jsx)(Footer_1.default, {})] }));
+    return ((0, jsx_runtime_1.jsxs)(react_router_dom_1.BrowserRouter, Object.assign({ basename: '/perf-basecamp' }, { children: [(0, jsx_runtime_1.jsx)(NavBar_1.default, {}), (0, jsx_runtime_1.jsxs)(react_router_dom_1.Routes, { children: [(0, jsx_runtime_1.jsx)(react_router_dom_1.Route, { path: "/", element: (0, jsx_runtime_1.jsx)(Home_1.default, {}) }), (0, jsx_runtime_1.jsx)(react_router_dom_1.Route, { path: "/search", element: (0, jsx_runtime_1.jsx)(Search_1.default, {}) })] }), (0, jsx_runtime_1.jsx)(Footer_1.default, {})] })));
 };
 exports["default"] = App;
 
